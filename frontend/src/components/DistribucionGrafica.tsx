@@ -36,7 +36,7 @@ const DistribucionGrafica = ({ datos }: { datos: number[] }) => {
 
     return (
         <div className="mt-6">
-            <Bar data={datosGrafica} options={opciones}></Bar>
+            <Bar data={datosGrafica} options={opciones}/>
         </div>
     );
 };
